@@ -1,0 +1,1 @@
+cmd_/home/oem/memory_manager/memory_manager.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/oem/memory_manager/memory_manager.ko /home/oem/memory_manager/memory_manager.o /home/oem/memory_manager/memory_manager.mod.o;  true
