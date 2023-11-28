@@ -1,0 +1,1 @@
+cmd_/home/oem/process_stats/process_stats.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/oem/process_stats/process_stats.ko /home/oem/process_stats/process_stats.o /home/oem/process_stats/process_stats.mod.o;  true
